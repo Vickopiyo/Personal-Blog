@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone</title>
+    <!-- link to icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header class="header main-grid">
+      <div class="header-content">
+        <a href="#" class="logo-link">
+          <!-- insert logo -->
+          <!-- <img src="" alt="" />   -->
+          <span>Jake & Dave</span>
+        </a>
+
+        <button aria-label="close navigation" class="open-nav">&#9776;</button>
+        <nav class="nav">
+          <button aria-label="close navigation" class="close-nav">
+            &times;
+          </button>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./about.html" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" class="nav-link   current">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--main section  -->
+
+    <main class="main-template main-grid">
+      <h1 class="page-title">Contact</h1>
+      <p class="subtitle">Let us know how we can help you need and we’ll drive over to your place in our Bluesmobile the following day to discuss the deal.</p>
+      <img src="https://images.pexels.com/photos/618613/pexels-photo-618613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="our working setup" class="main-image" />
+
+      <div class="secondary-text">
+        <h2 class="section-title">Getting in touch with us</h2>
+        <p>You can either use the form or send us an email. I'll get back in touch with you as soon as possible!</p></p>
+      </div>
+
+      <div class="main-text">  
+
+      <!-- for in label links it to id in input -->  
+      <form   action="#"   class="contact-form" method="POST">
+          <label for="fname"   class="fname-label">First Name</label> 
+          <input id="fname" class="fname-input" type="text"/> 
+          <label for="lname"   class="lname-label">last Name</label> 
+          <input id="lname" class="lname-input" type="text"/>  
+           <label for="message" class="message-label">Message</label>  
+           <textarea  id="message"  class="message-input"></textarea>  
+           <button   class="btn btn-primary btn-form">Send</button>
+      </form>
+         
+      </div>
+
+    </main>
+
+    <!-- footer section -->
+
+    <footer class="footer main-grid">
+      <div class="footer-main">
+        <img src="" alt="" class="footer-logo" />
+        <p class="footer-text">
+          Two brothers from Chicago that are just trying to pay back their debt
+          by helping others with their SEO, SEM, and Content Marketing needs.
+        </p>
+        <p class="footer-fineprint">© Jake&Elwood 2019</p>
+      </div>
+      <ul class="social-list">
+        <!-- i-italic tag for styling purposes -->
+        <li class="social-item">
+          <a class="social-link" href="#"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="#"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-item">
+          <a class="social-link" href="#"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!-- browser takes time to read js thus placed at the bottom to be read last  -->
+    <script src="../script.js"></script>
+  </body>
+</html>
