@@ -172,6 +172,10 @@ margin-top: 10px;
   text-decoration: none; 
   text-align: center;
   display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  color:  #000;
+  margin: 0;
 }
 
 .social-link:hover{
@@ -294,9 +298,9 @@ margin-top: 10px;
     font-size: 2rem;
     font-weight: 700;  
     cursor: pointer;  
+    margin-left: auto;
     padding: .5rem;  
-    position: absolute;
-    
+    /* position: absolute; */ 
   }   
     
   
